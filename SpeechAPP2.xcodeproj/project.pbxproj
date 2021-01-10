@@ -13,6 +13,7 @@
 		94E1B84D25AB1A4700E13D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E1B84B25AB1A4700E13D4A /* Main.storyboard */; };
 		94E1B84F25AB1A4800E13D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E1B84E25AB1A4800E13D4A /* Assets.xcassets */; };
 		94E1B85225AB1A4800E13D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E1B85025AB1A4800E13D4A /* LaunchScreen.storyboard */; };
+		94E1B85C25AB1AEF00E13D4A /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1B85B25AB1AEF00E13D4A /* SpeechService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		94E1B84E25AB1A4800E13D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E1B85125AB1A4800E13D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E1B85325AB1A4800E13D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E1B85B25AB1AEF00E13D4A /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				94E1B84525AB1A4700E13D4A /* AppDelegate.swift */,
 				94E1B84725AB1A4700E13D4A /* SceneDelegate.swift */,
 				94E1B84925AB1A4700E13D4A /* ViewController.swift */,
+				94E1B85B25AB1AEF00E13D4A /* SpeechService.swift */,
 				94E1B84B25AB1A4700E13D4A /* Main.storyboard */,
 				94E1B84E25AB1A4800E13D4A /* Assets.xcassets */,
 				94E1B85025AB1A4800E13D4A /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				94E1B84A25AB1A4700E13D4A /* ViewController.swift in Sources */,
 				94E1B84625AB1A4700E13D4A /* AppDelegate.swift in Sources */,
 				94E1B84825AB1A4700E13D4A /* SceneDelegate.swift in Sources */,
+				94E1B85C25AB1AEF00E13D4A /* SpeechService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Iseryuiseki.SpeechAPP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Iseryuiseki.SpeechAPP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

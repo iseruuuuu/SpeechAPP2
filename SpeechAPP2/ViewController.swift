@@ -6,14 +6,27 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    let speechService = SpeechService()
+    
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    
+    @IBAction func start(_ sender: Any) {
+        speechService.say(textField.text!)
+    }
+    
+    
+    @IBAction func stop(_ sender: Any) {
+        speechService.stop()
+    }
+    
 }
 
